@@ -1,0 +1,51 @@
+
+
+.General{
+    color:  #a2d2ff;
+    background-color: #333533;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Imagen{
+  border-radius: 8px;
+  width: 400px;
+}
+
+h1{
+    color: #8338ec;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: #f15bb5; 
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.elemento-lista{
+    color: #FFE4B5;
+    font-weight: bold;
+}
+
+.links{
+    color: #B22222;
+    font-size: 1.7em;
+    text-decoration: underline;
+    text-underline-position: over;
+}
+
+.especial{
+
+    color: #FFF;
+    background-color: #000;
+    font-style: italic;
+}
+    
+
+
+
+
