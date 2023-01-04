@@ -23,7 +23,6 @@ a.img:hover{
 
 header{
     width: 100%;
-    height: 60px;
 }
 
 nav{
@@ -32,8 +31,6 @@ nav{
 }
 
 .options{
-    width: 250px;
-    height: auto;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -65,7 +62,7 @@ nav{
 
 main{
     display: block;
-    height: calc(100%-1900px);
+    /* height: calc(100%-20%); */
     max-height: 100%;
     text-align: center;
     align-items: center;
@@ -79,7 +76,6 @@ img{
 
 .busqueda{
     width: 70%;
-    border: none;
     padding: 4px 25px 4px 5px;
     display: flex;
     justify-content: center;
@@ -135,7 +131,6 @@ input:focus{
 }
 
 .button-1{
-    
     min-width: 54px;
     display: inline-block;
     padding: 0.7em 1.2em;
@@ -150,19 +145,11 @@ input:focus{
     text-decoration: none;
     text-align: center;
     transition: all 0.2s;
-   
 } 
 
 a.button-1:hover{
     background-color:rgb(48, 48, 54);
     border: 0.1em solid rgb(81, 81, 90);
-}
-
-@media all and (max-width:30em){
-    a.button-1{
-        display:block;
-        margin:0.4em auto;
-    }
 }
 
 #search{
@@ -186,38 +173,27 @@ a.idioma:hover{
 }
 
 footer{
-    /* display:flex; */
-    /* flex-direction: column; */ 
-    /* height: 65px; */
-    /* padding: 0 30px; */
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 20%;
+    /* height: 20%; */
 }
-
-
 
 footer section{
     padding: 0 15px;
     display: block;
     align-items: center;
-    /* height: 40%; */
     color:  #d7d7de;
     flex-grow: 1;
 }
 
 .info{
-    /* width: 98%; */
-    height: 28%;
-    /* position: absolute;
-    bottom: 0; */
+    /* height: 28%; */
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     background-color: rgba(67, 105, 143, 0.604);
     border-top: 0.2px solid #3c4043;
-  
 }
 
 .info div a {
@@ -225,12 +201,15 @@ footer section{
     color: #9aa0a6;
 }
 
-/* .info div{
-    display: flex;
-    gap:18px
-} */
-
 .info div a:hover{
     text-decoration: underline;
+}
+
+
+@media all and (max-width:30em){
+    a.button-1{
+        display:block;
+        margin:0.4em auto;
+    }
 }
 
