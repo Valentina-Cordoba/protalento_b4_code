@@ -3,6 +3,7 @@
     background-color: darkblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 p {
@@ -24,4 +25,9 @@ h3 {
 
 .letra-cursiva {
     font-style: italic;
+}
+
+#parrafo-unico{
+    color: white;
+    width: 1000px;
 }

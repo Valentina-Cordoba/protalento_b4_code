@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202124;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+
+header .options{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+}
+
+header .options a{
+    text-decoration: none;
+    color: #bdc1c6;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.apps{
+    display: inline-block;
+    background-image: url(assets/apps.svg);
+    width: 28px;
+    height: 24px;
+    color: #bdc1c6;
+
+}
+
+main{
+    height: calc(100%-60px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+} 
+
+main .container figure{
+
+    display: flex;
+    flex-direction: column;
+    max-height: 92px;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+main .container figure img{
+    height: 100%;
+    
+}
