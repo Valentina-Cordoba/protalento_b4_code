@@ -125,7 +125,6 @@ input:focus{
 .busqueda:hover{
     box-shadow: 0 1px 6px 0px #7e808347;
     background-color:  #323438;
-   
 }
 
 .barra-busqueda:hover{
@@ -209,10 +208,21 @@ footer{
     text-decoration: underline;
 }
 
-@media all and (max-width:30em){
+@media (max-width:600px){
     a.button-1{
         display:block;
         margin:0.4em auto;
+    }
+    .busqueda{
+        width: 40%;
+        height: 10px;
+    }
+    .barra-busqueda{
+        height: 100%;
+    }
+    .material-icons-outlined{
+        height: 50%;
+        width: 10%;
     }
 }
 
