@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    /* font-size: 13px; */
     font-family: 'Roboto', sans-serif;
     background-color:#202124;
 }
@@ -113,9 +113,10 @@ input:focus{
 }
 
 .material-icons{
-    display:flex;
+    display: flex;
     color: rgb(216, 220, 223);
     margin: auto;
+    font-size: 24px;
 }
 
 .cursor{
@@ -208,10 +209,12 @@ footer{
     text-decoration: underline;
 }
 
-@media (max-width:600px){
+@media (max-width:700px){
     a.button-1{
-        display:block;
+        display:inline-flex;
         margin:0.4em auto;
+        padding: 0.1em 0.2em;
+        font-size: 40%;
     }
     .busqueda{
         width: 40%;
@@ -220,15 +223,11 @@ footer{
     .barra-busqueda{
         height: 100%;
     }
-    .material-icons-outlined{
-        height: 50%;
-        width: 10%;
+    .material-icons{
+       font-size: 80%;
     }
-}
-
-@media only screen and (max-width: 1300px){
-.info {
-        justify-content: space-evenly;
+    .cursor{
+        margin-top: -5px;
     }
 }
 
