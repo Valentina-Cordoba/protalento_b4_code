@@ -201,6 +201,11 @@ input:focus{
   height: 20px;
 }
 
+.card-image:hover{
+  filter: brightness(.50);
+  
+}
+
 
 
 
