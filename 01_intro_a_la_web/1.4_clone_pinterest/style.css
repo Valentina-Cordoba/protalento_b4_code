@@ -192,8 +192,10 @@ input:focus{
 
 .card-image:hover{
   filter: brightness(.50);
-  
+  cursor: zoom-in;
 }
+
+
 
 
 

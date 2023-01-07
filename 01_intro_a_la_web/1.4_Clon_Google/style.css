@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* font-size: 13px; */
     font-family: 'Roboto', sans-serif;
     background-color:#202124;
 }
@@ -65,7 +64,6 @@ nav{
 
 main{
     display: block;
-    /* height: calc(100%-20%); */
     max-height: 100%;
     text-align: center;
     align-items: center;
@@ -77,13 +75,16 @@ img{
     margin-top: 3%;
 }
 
-.busqueda{
-    width: 70%;
-    padding: 4px 25px 4px 5px;
+form {
     display: flex;
     justify-content: center;
-    border-radius: 25px;
+    align-items: center;
+    width: 50%;
+    max-width: 500px;
+    padding: 4px 25px 4px 5px;
+    margin: 0 auto;
     border-style: solid;
+    border-radius: 25px;
     border-width: 0.5px;
     border-color:rgb(153, 157, 160);
     background-color: rgb(38, 38, 43);
@@ -106,6 +107,7 @@ img{
     flex-direction: column;
     margin-bottom: 2%;
     margin-top: 2%;
+    
 }
 
 input:focus{
@@ -123,8 +125,7 @@ input:focus{
     cursor: pointer;
 }
 
-.busqueda:hover{
-    box-shadow: 0 1px 6px 0px #7e808347;
+form:hover{
     background-color:  #323438;
 }
 
@@ -156,7 +157,7 @@ a.button-1:hover{
 }
 
 #search{
- margin-right: 0.6%;
+    margin-right: 0.6%;
 }
 
 .text{
@@ -186,7 +187,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 14x;
     background-color: #171717;
 }
 
@@ -210,32 +211,26 @@ footer{
 }
 
 @media (max-width:700px){
-    a.button-1{
+    a.button-1, .text{
         display:inline-flex;
         margin:0.4em auto;
         padding: 0.1em 0.2em;
         font-size: 40%;
     }
-    .busqueda{
-        width: 40%;
-        height: 10px;
+    .gmail, .img {
+        font-size: 13px
     }
     .barra-busqueda{
         height: 100%;
     }
     .material-icons{
-       font-size: 80%;
+    font-size: 80%;
     }
     .cursor{
         margin-top: -5px;
     }
-}
-
-
-
-
-
-
-
-
-    
+    .country, .info {
+        font-size: 0.5%;
+        padding: none;
+    }
+}  
