@@ -29,22 +29,11 @@ img{
   display: flex;
 }
 
-#pinterest-icon{
-  background-image: url(assets/pinterest.png);
-  background-size: contain;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  border-radius: 80%;
-  margin-left: 2%;
-  margin-top: 1.8%;
-  margin-right: 0.5%;
-  width: 2.5%;
-  height: 25px;
-}
-
-.icon{
-  text-decoration: none;
+#pinterest-icon{ 
+  display: flex;
+  width: 10%;
+  margin-left: 15%;
+  margin-top: 8%;
 }
 
 .inicio{
@@ -57,7 +46,7 @@ img{
   color: white;
   line-height: 45px;
   text-align: center;
-  margin-left: 0.5%;
+  margin-left: -15%;
   cursor: pointer;
 }
 
@@ -122,7 +111,7 @@ img{
   display: flex;
   border: none;
   height: 25px;
-  width: 850px;
+  width: 900px;
   margin: -12px;
   margin-left: -1%;
   border-radius: 25px;
