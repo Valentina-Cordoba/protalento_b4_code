@@ -90,7 +90,7 @@ form {
     background-color: rgb(38, 38, 43);
 }
 
-.barra-busqueda{
+.input-search{
     border:none;
     margin: 0 5px;
     height: 30px;
@@ -129,7 +129,7 @@ form:hover{
     background-color:  #323438;
 }
 
-.barra-busqueda:hover{
+.input-search:hover{
     background-color:  #323438;
     box-shadow: 0 1px 6px 0px #20212447;
 }
@@ -187,7 +187,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 14x;
+    font-size: 14px;
     background-color: #171717;
 }
 
@@ -219,9 +219,6 @@ footer{
     }
     .gmail, .img {
         font-size: 13px
-    }
-    .barra-busqueda{
-        height: 100%;
     }
     .material-icons{
     font-size: 80%;
