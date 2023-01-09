@@ -68,12 +68,11 @@ body{
 }
 
 .profile h2{
-    color:  #4e0041;
+    color:  #452540;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    /* line-height: 1.4em; */
 }
 
 .profile h2 span{
@@ -82,9 +81,6 @@ body{
     color:  #4c0b41;
 }
 
-.profile h2{
-    color:  #452540;
-}
 
 .contact{
     padding-top: 20px;
@@ -127,11 +123,6 @@ body{
     text-decoration: none;
 }
 
-.contact ul li div {
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
 
 .education h3{
     color:  #4e0041;
@@ -180,31 +171,29 @@ body{
 }
 
 .aboutme{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-.aboutme:last-child{
-    margin-bottom: 0;
+.aboutme h2{
     color: #4c0b41;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px; 
-    text-align: justify;
 }
 
 .aboutme p{
     margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .aboutme ul{
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 60px;
     list-style-type: square;
 }
 
-.aboutme .columns img{
+.aboutme .columns .name{
     width: 200px;
     height: 160px;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
@@ -230,8 +219,12 @@ body{
 
 .experience .box .job-position h4{
     text-transform: uppercase;
-    color:  #4c0b41;
+    color: #4c0b41;
     font-size: 16px;
+}
+
+.experience p{
+    text-align: justify;
 }
 
 
