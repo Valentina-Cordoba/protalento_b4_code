@@ -50,7 +50,7 @@ body{
 
 }
 
-.img-profile{
+.image-profile{
     position: relative;
     width: 200px;
     height: 200px;
@@ -58,7 +58,7 @@ body{
     overflow: hidden;
 }
 
-.img-profile img{
+.image-profile img{
     position: absolute;
     top: 0;
     left: 0;
@@ -73,11 +73,11 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    line-height: 1.4em;
+    /* line-height: 1.4em; */
 }
 
 .profile h2 span{
-    font-size: 0.8;
+    font-size: 18px;
     font-weight: 300;
     color:  #4c0b41;
 }
@@ -178,5 +178,40 @@ body{
 .languages .idiom{
     color: rgb(247, 211, 247);
 }
+
+.aboutme{
+    margin-bottom: 50px;
+}
+
+.aboutme:last-child{
+    margin-bottom: 0;
+    color: #4c0b41;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px; 
+    text-align: justify;
+}
+
+.aboutme p{
+    margin-top: 10px;
+}
+
+.aboutme ul{
+    margin-top: 30px;
+    margin-left: 40px;
+    list-style-type: square;
+}
+
+.aboutme .columns img{
+    width: 200px;
+    height: 160px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.columns{
+    columns: 2;
+}
+
+
 
 
