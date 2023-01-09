@@ -100,11 +100,6 @@ img{
   background-color: rgb(226, 226, 226);
 }
 
-.material-icons{
-  display: flex;
-  color: rgb(99, 94, 94);
-}
-
 .finder{
   display: flex;
   border: none;
