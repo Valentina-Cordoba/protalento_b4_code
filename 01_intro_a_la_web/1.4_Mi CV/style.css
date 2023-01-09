@@ -46,7 +46,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid Thistle;
+    border-bottom: 2px solid Thistle;
 
 }
 
@@ -68,7 +68,7 @@ body{
 }
 
 .profile h2{
-    color: whitesmoke;
+    color: rgb(10, 10, 10);
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -77,7 +77,47 @@ body{
 }
 
 .profile h2 span{
-font-size: 0.8;
-font-weight: 300;
+    font-size: 0.8;
+    font-weight: 300;
+    color: rgb(246, 240, 240);
+}
 
+.profile h2{
+    color: ghostwhite;
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+.title-contact{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(247, 211, 247);
+}
+
+.contact ul li span{
+    color: white;
+    font-weight: 300;
+    
 }
