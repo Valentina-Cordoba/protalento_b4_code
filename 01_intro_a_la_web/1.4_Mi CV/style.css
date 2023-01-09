@@ -231,5 +231,33 @@ body{
     columns: 2;
 }
 
+.series img{
+    width: 200px;
+    height: 150px;
+  
+}
+
+.series{
+    margin-left: 40px;
+}
+
+.friends img{
+    width: 250px;
+    height: 150px;
+}
+
+.friends{
+    margin-left: 10px;
+}
+
+.series h4{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+.friends h4{
+    margin-top: 40px;
+}
+
 
 
