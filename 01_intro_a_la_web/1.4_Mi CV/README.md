@@ -25,3 +25,5 @@ El color del fonde es white
 
 el color de los encabezados h2 es #452540
 
+el color de los h5 es #4e0041 y en mayuscula completamente 
+
