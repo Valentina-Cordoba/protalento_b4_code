@@ -8,7 +8,7 @@ body{
 }
 
 img{
-  max-width: 100%;
+  width: 100%;
   margin-top: 3em;
   border-radius: 1em;
 }
@@ -202,7 +202,7 @@ input:focus{
   transition: all 300ms ease-out;
 }
 
-.button-guardar{
+.button-guardar1{
   font-family: 'Source Sans Pro', sans-serif;
   width: 32%;
   height: 14%;
@@ -220,7 +220,7 @@ input:focus{
   text-align: center;
 }
 
-.button-guardar{
+.button-guardar1{
   cursor: pointer;
 }
 
@@ -229,7 +229,7 @@ input:focus{
   cursor: zoom-in;
 }
 
-.card-image:hover > .button-guardar{
+.card-image:hover > .button-guardar1{
   opacity: 1;
   visibility: visible;
 }
