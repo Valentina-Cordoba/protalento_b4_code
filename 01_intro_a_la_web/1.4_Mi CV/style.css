@@ -229,12 +229,12 @@ body{
 
 .columns-hobbies{
     columns: 2;
+    margin-top: 20px;
 }
 
 .series img{
     width: 200px;
     height: 150px;
-  
 }
 
 .series{
@@ -248,16 +248,22 @@ body{
 
 .friends{
     margin-left: 10px;
+    margin-top: 20px;
 }
 
 .series h4{
-   margin-top: 20px;
    margin-left: 10px;
+   color: rgb(112, 99, 131);
 }
 
 .friends h4{
-    margin-top: 40px;
+    margin-left: 10px;
+    color: rgb(112, 99, 131);
 }
+
+
+
+
 
 
 
