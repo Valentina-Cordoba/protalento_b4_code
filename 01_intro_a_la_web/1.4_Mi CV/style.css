@@ -35,7 +35,7 @@ body{
 
 .right-side{
     position: relative;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 40px;
     
 }
@@ -225,6 +225,10 @@ body{
 
 .experience p{
     text-align: justify;
+}
+
+.columns-hobbies{
+    columns: 2;
 }
 
 
