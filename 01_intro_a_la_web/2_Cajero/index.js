@@ -11,11 +11,12 @@ var cuentas = [
     var label1=document.getElementById('account').textContent
     var label2= document.getElementById('password').textContent
     for (var i = 0; i < cuentas.length; i++) {
+        console.log("algo");
       if (cuentas[i].numero === label1 && cuentas[i].pwd === label2) {
         console.log('Bienvenido');
-        return true;
+
       }
     }
-    return false;
+
   }
 
