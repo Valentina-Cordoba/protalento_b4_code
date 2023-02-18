@@ -1,9 +1,9 @@
 
 
 var cuentas = [
-  { name: "Mali", balance: 200, number1: 60755912778, pwd1: 1234 },
-  { name: "Gera", balance: 290, number2: 60765912778, pwd2: 5678 },
-  { name: "Maui", balance: 67, number3: 60775912778, pwd3: 9012 }
+  { name: "Mali Becerri", balance: 200, number: 60755912778, pwd: 1234 },
+  { name: "Gera Rodriguez", balance: 290, number: 60765912778, pwd: 5678 },
+  { name: "Maui Stan", balance: 67, number: 60775912778, pwd: 9012 }
 ]
 
 var name= "";
@@ -17,25 +17,9 @@ document.getElementById("validarBtn").addEventListener("click", function () {
   var control= false
 
   for (var i = 0; i < cuentas.length; i++) {
-    if (cuentas[i].number1 === label1 && cuentas[i].pwd1 === label2) {
+    if (cuentas[i].number === label1 && cuentas[i].pwd === label2) {
       control=true;
-      name= cuentas[i].name;
-      amount= cuentas[i].balance;
-      window.location.href = "Profile-Mali.html";
-      break;
-    }
-    else if (cuentas[i].number2 === label1 && cuentas[i].pwd2 === label2) {
-      control=true;
-      name= cuentas[i].name;
-      amount= cuentas[i].balance;
-      window.location.href = "Profile-Gera.html";
-      break;
-    }
-    else if (cuentas[i].number3 === label1 && cuentas[i].pwd3 === label2) {
-      control=true;
-      name= cuentas[i].name;
-      amount= cuentas[i].balance;
-      window.location.href = "Profile-Maui.html";
+      window.location.href = "Profile.html?name="+cuentas[i].name+"&balance="+cuentas[i].balance+"&number="+cuentas[i].number;
       break;
     }
   }

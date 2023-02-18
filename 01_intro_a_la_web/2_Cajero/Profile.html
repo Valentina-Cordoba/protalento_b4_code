@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Heebo&display=swap"
         rel="stylesheet">
-    <title> Información de las Cuentas</title>
+    <title> Cuentas</title>
 </head>
 
 <body>
@@ -20,19 +20,28 @@
 
         <form action="">
 
+            <label id="fullName" for=""> Nombre Completo:</label>
+            <label  id="infoFullname" for=""></label>
+
+
             <label id="titleNumberAccount" for=""> Número de cuenta:</label>
+            <label  id="infoNumberAccount" for=""></label>
+
             <label id="titleBalance" for=""> Saldo Actual: </label>
+            <label id="infoBalance"></label>
+
+            <input id="amount" type="text">
+
 
             <button id="returnBtn"> Regresar al inicio </button>
             <button id="enterAmountBtn"> Ingrese monto </button>
             <button id="withdrawalAmountBtn"> Retirar monto</button>
 
-
         </form>
 
     </div>
 
-
+    <script src="profileScript.js"></script>
 
 </body>
 
