@@ -16,28 +16,43 @@
 
     <div class="profile">
 
-        <h1 id="titleProfile"> 
+        <h1 id="titleProfile">
             Hola Apreciado Cliente <img class="hello" src="assets\hello.png" alt="">
         </h1>
 
         <form action="">
 
-            <label id="fullName" for=""> Nombre Completo:</label>
-            <label  id="infoFullname" for=""></label>
+            <label id="fullName" for=""> 
+                Nombre Completo:
+            </label>
+            <label id="infoFullname" for=""></label>
 
 
-            <label id="titleNumberAccount" for=""> Número de cuenta:</label>
-            <label  id="infoNumberAccount" for=""></label>
+            <label id="titleNumberAccount" for=""> 
+                Número de cuenta:
+            </label>
+            <label id="infoNumberAccount" for=""></label>
 
-            <label id="titleBalance" for=""> Saldo Actual: </label>
+            <label id="titleBalance" for=""> 
+                Saldo Actual: 
+            </label>
             <label id="infoBalance"></label>
 
+            <label id="titleAmount"for="">
+                Ingrese el monto que desea consignar o retirar:
+            </label>
             <input id="amount" type="text">
 
 
-            <button id="returnBtn"> Regresar al inicio </button>
-            <button id="enterAmountBtn"> Ingrese monto </button>
-            <button id="withdrawalAmountBtn"> Retirar monto</button>
+            <button id="returnBtn" onclick="window.open('http://127.0.0.1:5500/01_intro_a_la_web/2_Cajero/index.html')">
+                Regresar al inicio
+            </button>
+            <button type="button" id="enterAmountBtn">
+                Ingrese monto
+            </button>
+            <button type="button" id="withdrawalAmountBtn">
+                Retirar monto
+            </button>
 
         </form>
 

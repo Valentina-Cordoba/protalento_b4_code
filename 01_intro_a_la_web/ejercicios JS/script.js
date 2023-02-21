@@ -133,7 +133,13 @@ if (hora>=6 && hora<=12){
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Sentencia SWITCH
+// CICLO WHILE 
+
+let cont=1;
+while(cont<=100){
+    document.write(cont+ " ");
+    cont++;
+}
 
 
 

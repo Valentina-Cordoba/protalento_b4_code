@@ -45,7 +45,7 @@ body {
     margin-top: 2%;
 }
 
-#fullName, #titleNumberAccount, #titleBalance{
+#fullName, #titleNumberAccount, #titleBalance, #titleAmount{
     color: #4dbbd0;
 }
 
