@@ -135,11 +135,37 @@ if (hora>=6 && hora<=12){
 
 // CICLO WHILE 
 
-let cont=1;
+/* let cont=1;
 while(cont<=100){
     document.write(cont+ " ");
     cont++;
-}
+} */
+
+// CICLO DO WHILE 
+
+/* let cont=1;
+do{
+    document.write(cont+" ");
+    cont++;
+}while(cont<=5); */
+
+// CICLO FOR
+
+/* for(let cont=1; cont<=100; cont ++){
+    document.write(cont+" ")
+} */
+
+/* for(let cont=1; cont<=100; cont ++){
+
+    if(cont==80){
+        continue;
+    }
+    document.write(cont+" ")
+} */
+
+// ARRAYS (ARREGLOS)
+
+
 
 
 

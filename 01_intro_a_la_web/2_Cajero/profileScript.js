@@ -14,10 +14,28 @@ window.onload = function () {
     label2.innerHTML = balance;
 }
 
-function cambiarValor() {
-    var input = document.getElementById("amount").value;
-    
-}
+
+document.getElementById("enterAmountBtn").addEventListener("click", function () {
+    event.preventDefault();
+    var sumValue = parseInt(document.getElementById('amount').value);
+    var balanceT = document.getElementById('infoBalance');
+    var sumUpdate = parseInt(balanceT.textContent) + sumValue
+    if (sumUpdate < 991)
+        balanceT.innerHTML = sumUpdate;
+    else
+        alert("Valor maximo permitido 990");
+})
+
+document.getElementById("withdrawalAmountBtn").addEventListener("click", function () {
+    event.preventDefault();
+    var lessValue = parseInt(document.getElementById('amount').value);
+    var balanceT = document.getElementById("infoBalance");
+    var lessUpdate = parseInt(balanceT.textContent) - lessValue
+    if (lessUpdate > 9)
+        balanceT.innerHTML = lessUpdate;
+    else
+        alert("Valor minimo permitido es 10");
+})
 
 
 
